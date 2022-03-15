@@ -1,0 +1,26 @@
+header {
+  height: 100px;
+  background-color: white;
+  #nav {
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  img {
+    height: 50px;
+  }
+  
+  
+  ul {
+    li {
+      display: inline-block;
+      a {
+        color: #5A646B;
+        margin: 0 10px;
+      }
+    }
+  }
+}
