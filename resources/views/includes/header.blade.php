@@ -2,7 +2,7 @@
     <div class="container">
         <div id="nav">
             <figure>
-                <img src="../assets/img/dc-logo.png" alt="" />
+                <img src="{{ asset('img/dc-logo.png')}}" alt="Logo DC" />
             </figure>
             <ul>
                 <li>
