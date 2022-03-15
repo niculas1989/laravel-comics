@@ -129,6 +129,15 @@ header ul li a {
   width: 50%;
   display: flex;
 }
+#upper-footer #wrap-foot li {
+  text-align: left;
+  list-style: none;
+}
+#upper-footer #wrap-foot li a {
+  color: #5A646B;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
 #upper-footer #first-col {
   display: flex;
   flex-direction: column;
@@ -136,7 +145,6 @@ header ul li a {
 #upper-footer #first-col li {
   display: flex;
   flex-direction: column;
-  padding-bottom: 0.8rem;
 }
 
 #bottom-footer {
@@ -190,6 +198,10 @@ ul li a {
   height: 180px;
   width: 180px;
   padding: 1.2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -100% 0;
+     object-position: -100% 0;
 }
 .single-card p {
   color: white;

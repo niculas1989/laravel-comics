@@ -7,6 +7,15 @@
   #wrap-foot {
     width: 50%;
   display: flex;
+  li {
+    text-align: left;
+      list-style: none;
+      a {
+        color: #5A646B;
+        font-size: 0.7rem;
+      text-decoration: none;
+    }
+  }
   }
   #first-col {
     display: flex;
@@ -14,7 +23,6 @@
     li {
       display: flex;
       flex-direction: column;
-      padding-bottom: 0.8rem;
     }
   }
 }
