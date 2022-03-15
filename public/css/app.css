@@ -60,6 +60,12 @@ header ul li a {
   align-items: center;
 }
 
+#comics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 16.6666666667%;
+}
+
 #blue-content {
   background-color: #0082f9;
   height: 100px;
@@ -84,7 +90,7 @@ header ul li a {
 
 #top-jumbotron {
   height: 400px;
-  background-image: url(../assets/img/jumbotron.jpg);
+  background-image: url(../img/jumbotron.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,7 +98,7 @@ header ul li a {
 
 #upper-footer {
   height: 450px;
-  background-image: url(../assets/img/footer-bg.jpg);
+  background-image: url();
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,10 +147,15 @@ ul li a {
   overflow: auto;
 }
 
-#single-card img {
-  height: 230px;
-  width: 230px;
+.single-card {
+  text-align: center;
+  width: 180px;
 }
-#single-card p {
+.single-card img {
+  height: 180px;
+  width: 180px;
+  padding: 1.2rem;
+}
+.single-card p {
   color: white;
 }

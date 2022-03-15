@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+#comics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 6);
+}
+
 #blue-content {
   background-color: #0082f9;
   height: 100px;
@@ -28,7 +34,7 @@
 
 #top-jumbotron {
   height: 400px;
-  background-image: url(../assets/img/jumbotron.jpg);
+  background-image: url(../img/jumbotron.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;

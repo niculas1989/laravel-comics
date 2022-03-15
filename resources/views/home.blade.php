@@ -6,23 +6,19 @@ $comics = config('comics');
 @extends('layouts.main')
 
 @section('content')
-<div id="single-card">
+<div>
     <jumbotron id="content w-100">
         <div id="top-jumbotron" class="w-100"></div>
         <div class="container">
-            <section id="comics" class="d-flex flex-wrap">
-                <div class="row">
-                    <div class="col-2">
-                        <div>
-                            @foreach ($comics as $comic)
-                            <div class="text-center">
-                                <img src="{{$comic['thumb']}}" class="card-img-top m-3" alt="{{ $comic['series'] }}" />
-                                <p class="">{{ $comic['series'] }}</p>
-                            </div>
-                            @endforeach
-                        </div>
-                    </div>
+            <section id="comics" class="container">
+
+                @foreach ($comics as $comic)
+                <div class="single-card">
+                    <img src=" {{$comic['thumb']}}" class="card-img-top m-3" alt="{{ $comic['series'] }}" />
+                    <p class="">{{ $comic['series'] }}</p>
                 </div>
+                @endforeach
+
             </section>
         </div>
     </jumbotron>
