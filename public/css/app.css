@@ -125,6 +125,11 @@ header ul li a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#upper-footer .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
 #upper-footer #wrap-foot {
   width: 50%;
   display: flex;
@@ -165,6 +170,7 @@ header ul li a {
 
 h6 {
   color: white;
+  padding-bottom: 1.2rem;
 }
 
 ul li {
