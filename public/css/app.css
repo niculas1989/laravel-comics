@@ -33,15 +33,35 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 140px;
   background-color: white;
+}
+header #top-header {
+  height: 40px;
+  background-color: dodgerblue;
+}
+header #top-header .container {
+  height: 100%;
+}
+header #top-header span {
+  color: white;
+  font-size: 0.5rem;
+  padding-right: 0.5rem;
+}
+header #top-header #wrap-head {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
 }
 header #nav {
   height: 100px;
-  margin-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header #nav input {
+  border: none;
 }
 header img {
   height: 50px;
@@ -64,6 +84,8 @@ header ul li a {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 16.6666666667%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #blue-content {

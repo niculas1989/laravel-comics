@@ -1,4 +1,12 @@
 <header>
+    <div id="top-header">
+        <div class="container">
+            <div id="wrap-head">
+                <span>DC POWER VISA</span>
+                <span>ADDITIONAL DC SITES</span>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div id="nav">
             <figure>
@@ -6,17 +14,21 @@
             </figure>
             <ul>
                 <li>
-                    <a href="">Characters</a>
-                    <a href="">Movies</a>
-                    <a href="">Tv</a>
-                    <a href="">Games</a>
-                    <a href="">Collectibles</a>
-                    <a href="">Videos</a>
-                    <a href="">Fans</a>
-                    <a href="">News</a>
-                    <a href="">Shop</a>
+                    <a href="">CHARACTERS</a>
+                    <a href="">COMICS</a>
+                    <a href="">MOVIES</a>
+                    <a href="">TV</a>
+                    <a href="">GAMES</a>
+                    <a href="">COLLECTIBLES</a>
+                    <a href="">VIDEOS</a>
+                    <a href="">FANS</a>
+                    <a href="">NEWS</a>
+                    <a href="">SHOP</a>
                 </li>
             </ul>
+            <div>
+                <input type="text" placeholder="Search..">
+            </div>
         </div>
     </div>
 </header>
