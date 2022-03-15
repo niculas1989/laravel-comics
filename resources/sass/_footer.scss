@@ -1,9 +1,22 @@
 #upper-footer {
   height: 450px;
-  background-image: url();
+  background-image: url(../img/footer-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  #wrap-foot {
+    width: 50%;
+  display: flex;
+  }
+  #first-col {
+    display: flex;
+    flex-direction: column;
+    li {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0.8rem;
+    }
+  }
 }
 
 #bottom-footer {
