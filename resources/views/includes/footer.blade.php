@@ -67,7 +67,7 @@
                   <span id="button"><a href="#">SIGN UP NOW</a></span>
                   <div>
                       <span class="main-color">FOLLOW US:</span>
-                      <img src="{{ asset(img/footer-facebook.png) }}" alt="Facebook" />
+                      <img src="{{ asset('img/footer-facebook.png') }}" alt="Facebook" />
                       <img src="{{ asset('img/footer-twitter.png') }}" alt="Twitter" />
                       <img src="{{ asset('img/footer-youtube.png') }}" alt="Youtube" />
                       <img src="{{ asset('img/footer-pinterest.png') }}" alt="Pinterest" />

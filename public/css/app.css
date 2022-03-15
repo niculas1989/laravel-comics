@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #596597;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.main-color {
+  color: #0082f9;
+}
+
+.main-text {
+  color: #5a646b;
+}
+
+header {
+  height: 100px;
+  background-color: white;
+}
+header #nav {
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 50px;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  color: #5A646B;
+  margin: 0 10px;
+}
+
+#content {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#blue-content {
+  background-color: #0082f9;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#merchandising {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#merchandising a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#merchandising img {
+  height: 40px;
+}
+
+#top-jumbotron {
+  height: 400px;
+  background-image: url(../assets/img/jumbotron.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#upper-footer {
+  height: 450px;
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bottom-footer {
+  height: 100px;
+  background-color: #303030;
+}
+#bottom-footer img {
+  height: 20px;
+  padding: 0 10px;
+}
+
+.wrapper {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h6 {
+  color: white;
+}
+
+ul li {
+  text-align: left;
+  list-style: none;
+}
+ul li a {
+  color: #5A646B;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+#button {
+  padding: 5px 10px;
+  border: 2px solid #0082f9;
+}
+#button a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo-dc img {
+  overflow: auto;
+}
+
+#single-card img {
+  height: 230px;
+  width: 230px;
+}
+#single-card p {
+  color: white;
+}
