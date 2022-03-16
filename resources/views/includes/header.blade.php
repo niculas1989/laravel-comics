@@ -15,7 +15,7 @@
             <ul>
                 <li>
                     <a href="">CHARACTERS</a>
-                    <a href="">COMICS</a>
+                    <a href="{{ route('comics') }}">COMICS</a>
                     <a href="">MOVIES</a>
                     <a href="">TV</a>
                     <a href="">GAMES</a>
