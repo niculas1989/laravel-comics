@@ -12,7 +12,7 @@
                 <div class="col-right">
                     <span>ADVERTISEMENT</span>
                     <figure>
-                        <img src="{{ asset('img/adv.jpg')" alt="Logo pubblicitario">
+                        <img src="{{ asset('img/sup.jpg') }}" alt="Logo pubblicitario">
                     </figure>
                 </div>
             </div>
