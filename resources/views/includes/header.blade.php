@@ -10,7 +10,9 @@
     <div class="container">
         <div id="nav">
             <figure>
-                <img src="{{ asset('img/dc-logo.png')}}" alt="Logo DC" />
+                <a href="{{ route('home') }}">
+                    <img src="{{ asset('img/dc-logo.png')}}" alt="Logo DC" />
+                </a>
             </figure>
             <ul>
                 <li>

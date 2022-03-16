@@ -23,8 +23,17 @@
     }
 }
 
+#top-jumbotron {
+    position: relative;
+    .comic-thumb {
+        position: absolute; 
+        bottom: 0;
+        border: 1px solid white; 
+    }
+}
+
 #specify-content {
-    height: 300px;
+    height: 350px;
     background-color: lightgray;
     a {
         color: dodgerblue;
@@ -51,5 +60,15 @@
                 flex-basis: 50%;
             }
         }
+    }
+}
+
+#merchandise-layout {
+    color: gray;
+    p {
+        font-size: 0.8rem;
+    }
+    .justify {
+        flex-basis: calc(100% / 4);
     }
 }

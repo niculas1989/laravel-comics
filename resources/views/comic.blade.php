@@ -2,8 +2,15 @@
 
 @section('content')
 <div>
-    <jumbotron id="content w-100">
-        <div id="top-jumbotron" class="w-100"></div>
+    <jumbotron id="contenuto">
+        <div id="top-jumbotron" class="w-100">
+            <div class="container">
+                <figure class="comic-thumb">
+                    <img src="{{ $comic['thumb'] }}" alt="">
+
+                </figure>
+            </div>
+        </div>
         <div id="single-comic">
             <div class="container">
                 <div class="col-left">
@@ -41,8 +48,7 @@
                         <span>
                             @foreach ($comic['artists'] as $artist)
                             <a href="#">
-                                {{ $artist }},
-                            </a>
+                                {{ $artist }}</a>,
                             @endforeach
                         </span>
                     </div>
@@ -53,8 +59,7 @@
                         <span>
                             @foreach ($comic['writers'] as $writer)
                             <a href="#">
-                                {{ $writer }},
-                            </a>
+                                {{ $writer }}</a>,
                             @endforeach
                         </span>
                     </div>
@@ -73,16 +78,43 @@
                     </div>
                     <hr>
                     <div class="justify">
-                        <span>Series</span>
+                        <span>U.S. Price: </span>
                         <span>
                             {{ $comic['price'] }}
                         </span>
                     </div>
                     <hr>
                     <div class="justify">
-                        <span>Series</span>
+                        <span>On Sale Date: </span>
                         <span>
                             {{ $comic['sale_date'] }}
+                        </span>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div id="merchandise-layout">
+                <div class="container">
+                    <div class="justify">
+                        <p>DIGITAL COMICS</p>
+                        <span><i class="fa-solid fa-tablet fa-3x"></i></span>
+                    </div>
+                    <div class="justify">
+                        <p>SHOP DC</p>
+                        <span>
+                            <i class="fa-solid fa-passport fa-3x"></i>
+                        </span>
+                    </div>
+                    <div class="justify">
+                        <p>COMIC SHOP LOCATOR</p>
+                        <span>
+                            <i class="fa-solid fa-location-dot fa-3x"></i>
+                        </span>
+                    </div>
+                    <div class="justify">
+                        <p>SUBSCRIPTIONS</p>
+                        <span>
+                            <i class="fa-solid fa-shirt fa-3x"></i>
                         </span>
                     </div>
                 </div>

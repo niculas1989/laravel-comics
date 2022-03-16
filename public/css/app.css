@@ -238,8 +238,17 @@ ul li a {
   flex-basis: 30%;
 }
 
+#top-jumbotron {
+  position: relative;
+}
+#top-jumbotron .comic-thumb {
+  position: absolute;
+  bottom: 0;
+  border: 1px solid white;
+}
+
 #specify-content {
-  height: 300px;
+  height: 350px;
   background-color: lightgray;
 }
 #specify-content a {
@@ -267,4 +276,14 @@ ul li a {
 }
 #specify-content .container .justify span {
   flex-basis: 50%;
+}
+
+#merchandise-layout {
+  color: gray;
+}
+#merchandise-layout p {
+  font-size: 0.8rem;
+}
+#merchandise-layout .justify {
+  flex-basis: 25%;
 }
