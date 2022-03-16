@@ -7,7 +7,8 @@
             <div class="container">
                 <figure class="comic-thumb">
                     <img src="{{ $comic['thumb'] }}" alt="">
-
+                    <span id="bottom-label">VIEW GALLERY</span>
+                    <span id="top-label">COMIC BOOK</span>
                 </figure>
             </div>
         </div>
@@ -121,6 +122,5 @@
             </div>
         </div>
     </jumbotron>
-
 </div>
 @endsection

@@ -30,6 +30,25 @@
         bottom: 0;
         border: 1px solid white; 
     }
+    #bottom-label {
+        background-color:dodgerblue;
+        font-size: 0.9rem;
+        text-align: center;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    #top-label {
+        background-color:dodgerblue;
+        font-size: 0.9rem;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 #specify-content {
