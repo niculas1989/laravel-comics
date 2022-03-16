@@ -14,8 +14,10 @@ $comics = config('comics');
 
                 @foreach ($comics as $comic)
                 <div class="single-card">
-                    <img src=" {{$comic['thumb']}}" class="card-img-top m-3" alt="{{ $comic['series'] }}" />
-                    <p class="">{{ $comic['series'] }}</p>
+                    <a href="{{ route('comic') }}">
+                        <img src=" {{$comic['thumb']}}" class="card-img-top m-3" alt="{{ $comic['series'] }}" />
+                        <p class="">{{ $comic['series'] }}</p>
+                    </a>
                 </div>
                 @endforeach
 
