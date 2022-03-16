@@ -220,3 +220,14 @@ ul li a {
 #single-comic .container {
   display: flex;
 }
+#single-comic .green-table {
+  height: 50px;
+  background-color: lightgreen;
+  display: flex;
+}
+#single-comic .green-table .price {
+  flex-basis: 70%;
+}
+#single-comic .green-table .available {
+  flex-basis: 30%;
+}

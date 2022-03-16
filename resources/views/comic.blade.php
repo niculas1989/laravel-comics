@@ -8,6 +8,16 @@
             <div class="container">
                 <div class="col-left">
                     <h2>{{ $comic['title'] }}</h2>
+                    <div class="green-table">
+                        <div class="price">
+                            <span>U.S. Price: {{ $comic['price'] }}</span>
+                        </div>
+                        <div class="available">
+                            <span>
+                                Check Availability
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-right">
                     <span>ADVERTISEMENT</span>

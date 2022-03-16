@@ -4,4 +4,15 @@
     .container {
         display: flex;
     }
+    .green-table {
+        height: 50px;
+        background-color: lightgreen;
+        display: flex;
+        .price {
+            flex-basis: 70%;
+        }
+        .available {
+            flex-basis: 30%;
+        }
+    }
 }
