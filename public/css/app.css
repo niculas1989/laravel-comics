@@ -212,3 +212,8 @@ ul li a {
 .single-card p {
   color: white;
 }
+
+#single-comic {
+  background-color: white;
+  height: 300px;
+}
