@@ -220,6 +220,12 @@ ul li a {
 #single-comic .container {
   display: flex;
 }
+#single-comic .container .col-left {
+  flex-basis: 50%;
+}
+#single-comic .container .col-right {
+  flex-basis: 50%;
+}
 #single-comic .green-table {
   height: 50px;
   background-color: lightgreen;

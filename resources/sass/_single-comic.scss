@@ -3,6 +3,12 @@
     height: 300px;
     .container {
         display: flex;
+        .col-left {
+            flex-basis: 50%;
+        }
+        .col-right {
+            flex-basis: 50%;
+        }
     }
     .green-table {
         height: 50px;

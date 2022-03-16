@@ -18,6 +18,9 @@
                             </span>
                         </div>
                     </div>
+                    <p>
+                        {{ $comic['description'] }}
+                    </p>
                 </div>
                 <div class="col-right">
                     <span>ADVERTISEMENT</span>
