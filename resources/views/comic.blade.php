@@ -33,27 +33,58 @@
         <div id="specify-content">
             <div class="container">
                 <div id="talent">
-                    <h5>Talent</h5>
-                    <p>Art by:
+                    <h2>Talent</h2>
+                    <hr>
+                    <div class="justify">
+                        <span>Art by:</span>
 
-                        @foreach ($comic['artists'] as $artist)
-                        <a href="#">
-                            {{ $artist }},
-                        </a>
-                        @endforeach
-                    </p>
+                        <span>
+                            @foreach ($comic['artists'] as $artist)
+                            <a href="#">
+                                {{ $artist }},
+                            </a>
+                            @endforeach
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="justify">
+                        <span>Written by:</span>
 
-                    <p>Written by:
-
-                        @foreach ($comic['writers'] as $writer)
-                        <a href="#">
-                            {{ $writer }},
-                        </a>
-                        @endforeach
-                    </p>
+                        <span>
+                            @foreach ($comic['writers'] as $writer)
+                            <a href="#">
+                                {{ $writer }},
+                            </a>
+                            @endforeach
+                        </span>
+                    </div>
+                    <hr>
                 </div>
                 <div id="specs">
-                    <h5>Specs</h5>
+                    <h2>Specs</h2>
+                    <hr>
+                    <div class="justify">
+                        <span>Series</span>
+                        <span>
+                            <a href="#">
+                                {{ $comic['series'] }}
+                            </a>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="justify">
+                        <span>Series</span>
+                        <span>
+                            {{ $comic['price'] }}
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="justify">
+                        <span>Series</span>
+                        <span>
+                            {{ $comic['sale_date'] }}
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

@@ -31,6 +31,9 @@
     }
     .container {
         display: flex;
+        h2 {
+            padding-bottom: 10px;
+        }
         #talent {
             flex-basis: 50%;
             p {
@@ -39,6 +42,14 @@
         }
         #specs {
             flex-basis: 50%;
+        }
+        .justify {
+            display:flex;
+            justify-content: space-between;
+            padding: 15px;
+            span {
+                flex-basis: 50%;
+            }
         }
     }
 }

@@ -248,6 +248,9 @@ ul li a {
 #specify-content .container {
   display: flex;
 }
+#specify-content .container h2 {
+  padding-bottom: 10px;
+}
 #specify-content .container #talent {
   flex-basis: 50%;
 }
@@ -255,5 +258,13 @@ ul li a {
   padding-top: 10px;
 }
 #specify-content .container #specs {
+  flex-basis: 50%;
+}
+#specify-content .container .justify {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+#specify-content .container .justify span {
   flex-basis: 50%;
 }
