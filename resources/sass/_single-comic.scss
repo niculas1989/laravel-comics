@@ -1,4 +1,7 @@
 #single-comic {
     background-color: white;
     height: 300px;
+    .container {
+        display: flex;
+    }
 }
